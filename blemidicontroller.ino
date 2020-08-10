@@ -6,7 +6,7 @@
 
 BLEDis bledis;
 BLEMidi blemidi;
-Adafruit_MPR121 cap; // = Adafruit_MPR121();
+Adafruit_MPR121 cap;
 
 MIDI_CREATE_INSTANCE(BLEMidi, blemidi, MIDI);
 
